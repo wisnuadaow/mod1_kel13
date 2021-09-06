@@ -1,9 +1,9 @@
-var a = 30; //Membuat variabel a
+var a = 75; //Membuat variabel a
 const kali = () =>{ // Arrow function
     return 1 * a + 10; // Mengembalikan nilai
 }
 console.log(kali()); // Menampilkan hasil pada console
-nilai = kali(true); // Mmebuat objek nilai
+nilai = kali(); // Mmebuat objek nilai
 hasil = nilai >=80 ? "Nilai A": // Pengkondisian dalam bentuk ternary operator
         nilai >=70 ? "Nilai B":
         nilai >=60 ? "Nilai C":
