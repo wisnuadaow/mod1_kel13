@@ -1,15 +1,16 @@
-var a = 75; //Membuat variabel a
-const kali = () =>{ // Arrow function
-    return 1 * a + 10; // Mengembalikan nilai
+const grade = () =>{ // Arrow function
+    var a = document.getElementById("nilai").value; //Membuat variabel a
+    var b = 1 * a + 10; // Mengembalikan nilai
+     hasil = b >=80 ? "Nilai A": // Pengkondisian dalam bentuk ternary operator
+            b >=70 ? "Nilai B":
+            b >=60 ? "Nilai C":
+            b >=50 ? "Nilai D":
+            "Nilai E";
+        console.log(hasil); // Menampilkan hasil pada console
+        console.log(b);
+        alert(hasil);
 }
-console.log(kali()); // Menampilkan hasil pada console
-nilai = kali(); // Mmebuat objek nilai
-hasil = nilai >=80 ? "Nilai A": // Pengkondisian dalam bentuk ternary operator
-        nilai >=70 ? "Nilai B":
-        nilai >=60 ? "Nilai C":
-        nilai >=50 ? "Nilai D":
-        "Nilai E";
-console.log(hasil); // Menampilkan hasil pada console
+
 
 
 
